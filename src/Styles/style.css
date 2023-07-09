@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    min-height: 100vh;
+    max-height: 100%;
+    width: 100%;
+    font-family: 'maven pro', sans-serif;
+    background: #141E30;
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);
+    background: linear-gradient(to top, #243B55, #141E30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: silver;
+}
+
+/* input:read-only {
+    font-weight: 600;
+} */
+
+.main-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid silver;
+    border-radius: 25px;
+    height: 2.5rem;
+    width: 20rem;
+    padding: 0 0.8rem;
+    margin-bottom: 1rem;
+    background-color: silver;
+}
+
+.status-text {
+    color: rgb(192, 69, 69);
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.main-input i {
+    font-size: 1.5rem;
+}
+
+.main-input input,
+.main-input button {
+    border: none;
+    background-color: transparent;
+    color: #141E30;
+    outline: none;
+    text-align: center;
+}
+
+.main-input input {
+    width: 100%;
+}
+
+.main-input input::placeholder {
+    color: #141E30;
+}
+
+.todo-task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    height: 2.5rem;
+    width: 20rem;
+    padding: 0 1rem;
+    background-color: #141E30;
+    color: silver;
+    margin: 0.5rem 0;
+}
+
+.todo-task form {
+    padding: none;
+}
+
+.todo-task button {
+    border: 1px solid transparent;
+    background-color: none;
+    outline: none;
+}
+
+.todo-task input {
+    outline: none;
+    border: none;
+    background-color: #141E30;
+    color: silver;
+    width: 14rem;
+}
+
+.todo-task i {
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+    padding: 0.3rem;
+}
+
+.todo-task i:hover {
+    background-color: silver;
+    border-radius: 50px;
+    color: #141E30;
+    transition: 200ms;
+    padding: auto;
+}
+
+.task-completed {
+    text-decoration: line-through;
+}
+
+.completed-text {
+    text-align: left;
+    color: silver;
+    font-family: 'maven pro', sans-serif;
+}
+
+.checkbox {
+    border: 1px solid red;
+    padding: none;
+    margin-left: 1px;
+}
