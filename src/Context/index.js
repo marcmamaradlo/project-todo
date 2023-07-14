@@ -94,7 +94,6 @@ class MyProvider extends Component {
             handleEditText, handleCloseButton, handlecheckboxes,
         } = this;
 
-        // handlecheckboxes()
         return (
             <MyContext.Provider value={{
                 state, handleOnChangeMainInput, handleFormSubmit,
