@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { MyContext } from "../Context";
 import TodoTask from "./TodoTask";
 
